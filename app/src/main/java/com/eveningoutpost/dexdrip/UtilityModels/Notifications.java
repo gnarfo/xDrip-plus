@@ -60,7 +60,7 @@ import static com.eveningoutpost.dexdrip.UtilityModels.ColorCache.getCol;
  * Created by Emma Black on 11/28/14.
  */
 public class Notifications extends IntentService {
-    public static final long[] vibratePattern = {0, 1000, 300, 1000, 300, 1000};
+    public static final long[] vibratePattern = {0, 150, 150, 150, 150, 150, 150, 150};
     public static boolean bg_notifications;
     public static boolean bg_notifications_watch;
     public static boolean bg_persistent_high_alert_enabled_watch;
